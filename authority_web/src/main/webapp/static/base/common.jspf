@@ -1,0 +1,9 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:set var="ctx" value="${pageContext.request.contextPath}"></c:set>
+<link rel="stylesheet" type="text/css" href="${ctx}/static/plugins/layui/css/layui.css">
+<link rel="stylesheet" type="text/css" href="${ctx}/static/css/hp_ext.css">
+<link rel="stylesheet" type="text/css" href="${ctx}/static/iconfont/iconfont.css">
+<script src="${ctx}/static/plugins/jquery.min.js"></script>
+<script src="${ctx}/static/plugins/layui/layui.js"></script>
